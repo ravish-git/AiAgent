@@ -18,10 +18,10 @@ This project is an AI-powered summarizer that uses the OpenAI API to generate su
 2. Create and Activate Virtual Environment
   python -m venv .venv
 
-  # Activate the environment:
-  # On Windows:
+  Activate the environment:
+  On Windows:
   .venv\Scripts\activate
-  # On Mac/Linux:
+  On Mac/Linux:
   source .venv/bin/activate
 
 3. Install Dependencies
@@ -31,4 +31,4 @@ This project is an AI-powered summarizer that uses the OpenAI API to generate su
    OPENAI_API_KEY=""
 
 5. Run
-  python main.py
+   python main.py
