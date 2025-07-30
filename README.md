@@ -21,8 +21,8 @@ This project is an AI-powered summarizer that uses the OpenAI API to generate su
     Activate the environment:
       On Windows:
       .venv\Scripts\activate
-      On Mac/Linux:
-      source .venv/bin/activate
+        On Mac/Linux:
+        source .venv/bin/activate
 
 3. Install Dependencies
   pip install -r requirements.txt
