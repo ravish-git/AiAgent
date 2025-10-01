@@ -22,7 +22,7 @@ It takes any topic/question from the terminal, fetches information from tools (s
 1. Clone the Repository
   ```bash
   git clone https://github.com/ravish-git/AiAgent.git
-  cd <AiAgent>
+  cd AiAgent
 ```
 2. Create and Activate Virtual Environment
   python -m venv .venv
