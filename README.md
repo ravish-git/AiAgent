@@ -21,21 +21,25 @@ It takes any topic/question from the terminal, fetches information from tools (s
 
 1. Clone the Repository
   ```bash
-  git clone https://github.com/<ravish-git>/<AiAgent>.git
+  git clone https://github.com/ravish-git/AiAgent.git
   cd <AiAgent>
 ```
 2. Create and Activate Virtual Environment
   python -m venv .venv
 
     Activate the environment:
-   
+    
     On Windows:
+    ```bash
     .venv\Scripts\activate
+    ```
    
     On Mac/Linux:
+    ```bash
     source .venv/bin/activate
+    ```
 
-3. Install Dependencies
+4. Install Dependencies
   ```bash
   pip install -r requirements.txt
   ```
