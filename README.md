@@ -1,20 +1,29 @@
 # AI Agent Summarizer
 
-This project is an AI-powered summarizer that uses the OpenAI API to generate summaries of topics.
+An AI-powered research assistant built with LangChain + OpenAI API.
+It takes any topic/question from the terminal, fetches information from tools (search, Wikipedia, file saving), and outputs a structured summary including sources and tools used.
 
-## Features
-- Summarizes any topic using OpenAI's API.
-- Easy to set up and run locally.
-- Configurable API key via `.env` file.
+## ✨ Features
+- Summarizes any topic or question entered in the terminal.
+- Uses LangChain agents for tool usage.
+- Supports OpenAI GPT-4o-mini (can extend to Anthropic Claude).
+- Generates a structured JSON response (topic, summary, sources, tools used).
+- Saves results to a file via custom tool.
 
----------------------------------------------------------
+## 🛠️ Tech Stack
+- Python 3.10+
+- LangChain
+- OpenAI API
+- Pydantic
+- dotenv for API key management
 
-## **Setup Instructions**
+## 🚀 **Setup Instructions**
 
 1. Clone the Repository
-  git clone https://github.com/<your-username>/<repo-name>.git
-  cd <repo-name>
-
+  ```bash
+  git clone https://github.com/<ravish-git>/<AiAgent>.git
+  cd <AiAgent>
+```
 2. Create and Activate Virtual Environment
   python -m venv .venv
 
@@ -26,11 +35,17 @@ This project is an AI-powered summarizer that uses the OpenAI API to generate su
     On Mac/Linux:
     source .venv/bin/activate
 
-4. Install Dependencies
+3. Install Dependencies
+  ```bash
   pip install -r requirements.txt
+  ```
 
-5. Set Up OpenAI API Key
+4. Set Up OpenAI API Key
+   ```bash
    OPENAI_API_KEY=""
+   ```
 
-6. Run
+5. Run
+   ```bash
    python main.py
+   ```
